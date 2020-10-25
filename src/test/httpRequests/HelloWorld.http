@@ -1,0 +1,36 @@
+GET http://localhost:8080/hello-world
+Accept: application/json
+
+###
+
+GET http://localhost:8080/hello-world-bean
+Accept: application/json
+
+### /hello-world/path-variable/{name}
+
+GET http://localhost:8080//hello-world/path-variable/Vinnie
+Accept: application/json
+
+###
+
+GET http://localhost:8080/hello-world-i18n
+Accept: application/json
+Accept-Language: uk
+
+###
+
+GET http://localhost:8080/hello-world-i18n
+Accept: application/json
+Accept-Language: pt-br
+
+###
+
+GET http://localhost:8080/hello-world-i18n
+Accept: application/json
+Accept-Language: it
+
+###
+
+GET http://localhost:8080/hello-world-i18n
+Accept: application/json
+#Accept-Language: it
