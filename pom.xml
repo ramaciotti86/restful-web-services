@@ -27,11 +27,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!-- Spring Security -->
+		<!-- Spring Security - Removing Security to keep things simple when using H2
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		-->
 		<!-- Monitoring services -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
